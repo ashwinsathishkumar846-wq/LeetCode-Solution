@@ -1,0 +1,4 @@
+# Raw LeetCode export (contains your submission history) - keep it local
+leetcode-java-submissions.json
+*.class
+.DS_Store
