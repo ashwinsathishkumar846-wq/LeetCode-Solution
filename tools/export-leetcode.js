@@ -262,7 +262,7 @@
   const noCode = entries.filter((e) => !e.code).length;
   const noId = entries.filter((e) => !e.questionId).length;
 
-  log('%cDONE', 'color:#2ecc71;font-weight:bold');
+  console.log('%c[leetcode-export] DONE', 'color:#2ecc71;font-weight:bold;font-size:14px');
   log(`exported ${entries.length} problems -> ${OUT_FILE} (check your Downloads folder)`);
   log(`   Easy ${counts.Easy} | Medium ${counts.Medium} | Hard ${counts.Hard}`);
   if (solved.length) log(`   (LeetCode says you have solved ${solved.length} problems across all languages)`);

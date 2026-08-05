@@ -2,3 +2,4 @@
 leetcode-java-submissions.json
 *.class
 .DS_Store
+tools/mock-export.json
