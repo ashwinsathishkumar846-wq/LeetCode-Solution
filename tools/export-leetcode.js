@@ -42,11 +42,18 @@
   // (Kotlin/Scala run on the JVM but are separate languages -- excluded.)
   const isJava = (lang) => String(lang || '').toLowerCase() === 'java';
 
+  // LeetCode rejects authenticated GraphQL POSTs that omit the CSRF token.
+  const csrfToken = () =>
+    ((document.cookie || '').match(/(?:^|;\s*)csrftoken=([^;]+)/) || [, ''])[1];
+
   async function gql(query, variables, operationName) {
+    const headers = { 'content-type': 'application/json' };
+    const token = csrfToken();
+    if (token) headers['x-csrftoken'] = token;
     const res = await fetch('/graphql/', {
       method: 'POST',
       credentials: 'include',
-      headers: { 'content-type': 'application/json' },
+      headers,
       body: JSON.stringify({ query, variables, operationName }),
     });
     if (!res.ok) throw new Error(`GraphQL HTTP ${res.status}`);
@@ -239,6 +246,19 @@
   const counts = { Easy: 0, Medium: 0, Hard: 0 };
   for (const e of entries) if (counts[e.difficulty] !== undefined) counts[e.difficulty]++;
 
+  // Anything you solved that produced no Java submission here. Usually solved
+  // in another language -- but listed explicitly so a short export is never a
+  // mystery, and never quietly papered over.
+  const unaccounted = solved
+    .filter((q) => !bySlug.has(q.titleSlug))
+    .map((q) => ({
+      questionId: q.questionFrontendId,
+      title: q.title,
+      titleSlug: q.titleSlug,
+      difficulty: q.difficulty,
+      reason: 'no accepted Java submission found',
+    }));
+
   const payload = {
     exportedAt: new Date().toISOString(),
     username,
@@ -246,6 +266,7 @@
     totalProblems: entries.length,
     difficultyCounts: counts,
     solvedAllLanguages: solved.length || null,
+    unaccountedFor: unaccounted,
     problems: entries,
   };
 
@@ -266,6 +287,12 @@
   log(`exported ${entries.length} problems -> ${OUT_FILE} (check your Downloads folder)`);
   log(`   Easy ${counts.Easy} | Medium ${counts.Medium} | Hard ${counts.Hard}`);
   if (solved.length) log(`   (LeetCode says you have solved ${solved.length} problems across all languages)`);
+  if (unaccounted.length) {
+    warn(`   ${unaccounted.length} solved problem(s) produced no Java submission:`);
+    console.table(unaccounted.map((u) => ({ '#': u.questionId, title: u.title, difficulty: u.difficulty })));
+    warn('   These are listed under "unaccountedFor" in the JSON. If you expected');
+    warn('   Java solutions for them, tell Claude -- do not hand-write them in.');
+  }
   if (noCode) warn(`   ${noCode} entries have NO source code -- tell Claude, do not hand-fill them`);
   if (noId) warn(`   ${noId} entries have NO problem number -- tell Claude`);
   window.__leetcodeExport = payload;   // also left here in case the download is blocked

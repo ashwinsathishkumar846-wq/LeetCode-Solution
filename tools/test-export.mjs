@@ -41,6 +41,7 @@ globalThis.fetch = async (url, opts = {}) => {
     const slice = feed.slice(offset, offset + PAGE);
     return { ok: true, status: 200, json: async () => ({ submissions_dump: slice, has_next: offset + PAGE < feed.length }) };
   }
+  sawCsrf.push(opts.headers?.['x-csrftoken']);
   const body = JSON.parse(opts.body);
   const op = body.operationName, v = body.variables;
   const data = {};
@@ -59,7 +60,9 @@ globalThis.window = globalThis;
 globalThis.Blob = class { constructor(parts) { downloaded = parts.join(''); } };
 globalThis.URL.createObjectURL = () => 'blob:mock';
 globalThis.URL.revokeObjectURL = () => {};
+let sawCsrf = [];
 globalThis.document = {
+  cookie: 'csrftoken=FAKE-CSRF-TOKEN; LEETCODE_SESSION=abc',
   createElement: () => ({ click() {}, remove() {}, set href(_) {}, set download(_) {} }),
   body: { appendChild() {} },
 };
@@ -88,6 +91,12 @@ check('sorted by problem number', out.problems.map((p) => Number(p.questionId)).
 check('topic tags attached', bySlug['two-sum']?.topicTags?.join() === 'Array,Hash Table');
 check('difficulty counts correct', out.difficultyCounts.Easy === 3 && out.difficultyCounts.Medium === 0);
 check('solvedAllLanguages reported', out.solvedAllLanguages === 5);
+check('sends x-csrftoken on every GraphQL call',
+  sawCsrf.length > 0 && sawCsrf.every((t) => t === 'FAKE-CSRF-TOKEN'));
+check('unaccountedFor lists solved-but-not-Java problems',
+  out.unaccountedFor?.map((u) => u.titleSlug).sort().join() === 'maximum-subarray,valid-parentheses');
+check('unaccountedFor entries carry a reason',
+  out.unaccountedFor?.every((u) => typeof u.reason === 'string' && u.reason));
 check('problem url built', bySlug['two-sum']?.url === 'https://leetcode.com/problems/two-sum/');
 
 console.log(fails ? `\n${fails} FAILURE(S)` : '\nall assertions passed');

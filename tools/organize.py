@@ -309,6 +309,15 @@ def main() -> None:
     by_topic = write_solutions(problems, root)
     (root / "README.md").write_text(build_readme(payload, by_topic, problems), encoding="utf-8")
 
+    unaccounted = payload.get("unaccountedFor") or []
+    if unaccounted:
+        print(f"\nnote: {len(unaccounted)} problem(s) you have solved produced no Java "
+              f"submission and are NOT in this repository:")
+        for u in unaccounted:
+            print(f"  {u.get('questionId', '?'):>4}  {u.get('title', '?')}")
+        print("  (solved in another language, most likely -- nothing was invented "
+              "to fill these in)\n")
+
     counts = Counter(p.get("difficulty") for p in problems)
     print(f"wrote {len(problems)} solutions across {len(by_topic)} topics")
     print(f"  Easy {counts.get('Easy', 0)} | Medium {counts.get('Medium', 0)} | "
