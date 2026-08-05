@@ -35,18 +35,20 @@ from pathlib import Path
 TOPIC_PRIORITY: list[tuple[str, tuple[str, ...]]] = [
     ("Database",             ("Database",)),
     ("Design",               ("Design",)),
-    ("Trie",                 ("Trie",)),
-    ("Graphs",               ("Graph", "Union Find", "Topological Sort", "Shortest Path")),
+    ("Graphs",               ("Graph", "Graph Theory", "Union Find", "Topological Sort",
+                              "Shortest Path")),
     ("Trees",                ("Binary Search Tree", "Binary Tree", "Tree")),
     ("Linked List",          ("Linked List",)),
     ("Heap (Priority Queue)",("Heap (Priority Queue)",)),
     ("Stack",                ("Stack", "Monotonic Stack")),
     ("Queue",                ("Queue", "Monotonic Queue")),
-    ("Dynamic Programming",  ("Dynamic Programming",)),
-    ("Backtracking",         ("Backtracking",)),
-    ("Binary Search",        ("Binary Search",)),
+    # scanning techniques before DP: LeetCode tags several two-pointer problems
+    # (e.g. Is Subsequence) with Dynamic Programming for an alternative solution
     ("Sliding Window",       ("Sliding Window",)),
     ("Two Pointers",         ("Two Pointers",)),
+    ("Binary Search",        ("Binary Search",)),
+    ("Dynamic Programming",  ("Dynamic Programming",)),
+    ("Backtracking",         ("Backtracking",)),
     ("Bit Manipulation",     ("Bit Manipulation",)),
     ("Matrix",               ("Matrix",)),
     ("Prefix Sum",           ("Prefix Sum",)),
@@ -55,7 +57,10 @@ TOPIC_PRIORITY: list[tuple[str, tuple[str, ...]]] = [
     ("Hash Table",           ("Hash Table",)),
     ("Strings",              ("String", "String Matching")),
     ("Arrays",               ("Array",)),
-    # broad techniques last -- they tag a lot of problems that belong elsewhere
+    # broad techniques last -- they tag a lot of problems that belong elsewhere.
+    # Trie sits here rather than near the top because LeetCode tags string
+    # problems like Longest Common Prefix with it for an alternative solution.
+    ("Trie",                 ("Trie",)),
     ("Sorting",              ("Sorting",)),
     ("Math",                 ("Math", "Number Theory", "Geometry", "Counting", "Recursion",
                               "Simulation", "Enumeration")),
@@ -188,7 +193,14 @@ def build_readme(payload: dict, by_topic: dict[str, list[dict]], problems: list[
     # ---- stats ----
     L.append("## 📊 Progress")
     L.append("")
-    L.append(f"**Total solved: {total}**")
+    solved_all = payload.get("solvedAllLanguages")
+    if solved_all and solved_all != total:
+        L.append(f"**{total} Java solutions** in this repository — "
+                 f"out of **{solved_all} problems solved** on LeetCode "
+                 f"([the difference](#-solved-but-not-in-this-repository) was solved "
+                 f"in another language).")
+    else:
+        L.append(f"**Total solved: {total}**")
     L.append("")
     L.append("| Difficulty | Solved | Share |")
     L.append("| :--- | ---: | ---: |")
@@ -259,6 +271,27 @@ def build_readme(payload: dict, by_topic: dict[str, list[dict]], problems: list[
         L.append(f"| {p['_number']} | [{p['title']}]({url}) | {badge} | {tags} | "
                  f"{md_link('Java', p['_path'])} |")
     L.append("")
+
+    # ---- solved but not exported ----
+    unaccounted = payload.get("unaccountedFor") or []
+    if unaccounted:
+        solved_total = payload.get("solvedAllLanguages") or (total + len(unaccounted))
+        L.append("## 📝 Solved but Not in This Repository")
+        L.append("")
+        L.append(f"LeetCode records **{solved_total} solved problems** on my account, and "
+                 f"**{total}** of them are here. The {len(unaccounted)} below have no accepted "
+                 "Java submission to publish — either solved in another language, or a "
+                 "database problem where SQL is the only option. They are listed rather than "
+                 "dropped, so the two counts reconcile.")
+        L.append("")
+        L.append("| # | Problem | Difficulty | Status |")
+        L.append("| ---: | :--- | :--- | :--- |")
+        for u in sorted(unaccounted, key=lambda x: int(x.get("questionId") or 0)):
+            badge = DIFFICULTY_BADGE.get(u.get("difficulty"), "⚪ Unknown")
+            url = f"https://leetcode.com/problems/{u['titleSlug']}/"
+            L.append(f"| {u.get('questionId', '?')} | [{u.get('title', '?')}]({url}) | "
+                     f"{badge} | ⬜ TODO — no Java submission exported |")
+        L.append("")
 
     # ---- how it's maintained ----
     L.append("## 🔄 How This Repository Is Maintained")
