@@ -16,7 +16,7 @@ class Solution {
         while (second >= 0) {
             nums1[index] = nums2[second];
             second--;
-            index--;
+            index--; //change
         }
     }
 }
