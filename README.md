@@ -159,6 +159,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0088-merge-sorted-array) |
+| [0136-single-number](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0189-rotate-array) |
 ## Two Pointers
 |  |
@@ -173,4 +174,8 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0189-rotate-array) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
