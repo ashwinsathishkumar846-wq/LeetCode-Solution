@@ -152,3 +152,19 @@ Solved problems with no Java solution in this repository (2):
 `#196 Delete Duplicate Emails` is a database problem, so it has no Java solution by design.
 
 That accounts for all 78 solved problems: 76 with Java code here, 2 without.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0088-merge-sorted-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0088-merge-sorted-array) |
+## Sorting
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0088-merge-sorted-array) |
+<!---LeetCode Topics End-->
