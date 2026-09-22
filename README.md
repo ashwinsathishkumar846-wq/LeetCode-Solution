@@ -158,6 +158,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 ## Array
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0041-first-missing-positive) |
 | [0088-merge-sorted-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0088-merge-sorted-array) |
 | [0136-single-number](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0189-rotate-array) |
@@ -186,6 +187,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 ## Hash Table
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0041-first-missing-positive) |
 | [1189-maximum-number-of-balloons](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1189-maximum-number-of-balloons) |
 ## String
 |  |
