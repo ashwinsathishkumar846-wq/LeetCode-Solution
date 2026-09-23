@@ -159,6 +159,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 |  |
 | ------- |
 | [0041-first-missing-positive](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0041-first-missing-positive) |
+| [0045-jump-game-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0055-jump-game) |
 | [0088-merge-sorted-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0088-merge-sorted-array) |
@@ -205,9 +206,11 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0055-jump-game) |
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
