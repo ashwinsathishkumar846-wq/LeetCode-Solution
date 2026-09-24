@@ -164,6 +164,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | [0055-jump-game](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0055-jump-game) |
 | [0088-merge-sorted-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0088-merge-sorted-array) |
 | [0136-single-number](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0136-single-number) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0189-rotate-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0189-rotate-array) |
 | [1512-number-of-good-pairs](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1512-number-of-good-pairs) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -219,4 +220,8 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | ------- |
 | [0045-jump-game-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0055-jump-game) |
+## Binary Search
+|  |
+| ------- |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 <!---LeetCode Topics End-->
