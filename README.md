@@ -207,6 +207,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | [0049-group-anagrams](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0205-isomorphic-strings) |
 | [1189-maximum-number-of-balloons](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1189-maximum-number-of-balloons) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 ## Counting
 |  |
 | ------- |
@@ -226,4 +227,12 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 |  |
 | ------- |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+## Stack
+|  |
+| ------- |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 <!---LeetCode Topics End-->
