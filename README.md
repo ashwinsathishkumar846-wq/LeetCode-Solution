@@ -231,6 +231,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 ## Stack
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0094-binary-tree-inorder-traversal) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Bracket Sequences
@@ -238,4 +239,16 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | ------- |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+## Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0094-binary-tree-inorder-traversal) |
+## Depth-First Search
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0094-binary-tree-inorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->
