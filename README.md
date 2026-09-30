@@ -182,6 +182,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0189-rotate-array) |
+| [0412-fizz-buzz](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0412-fizz-buzz) |
 | [1512-number-of-good-pairs](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1512-number-of-good-pairs) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Bit Manipulation
@@ -206,6 +207,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | ------- |
 | [0049-group-anagrams](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0205-isomorphic-strings) |
+| [0412-fizz-buzz](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0412-fizz-buzz) |
 | [1189-maximum-number-of-balloons](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1189-maximum-number-of-balloons) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -251,4 +253,8 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0094-binary-tree-inorder-traversal) |
+## Simulation
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0412-fizz-buzz) |
 <!---LeetCode Topics End-->
