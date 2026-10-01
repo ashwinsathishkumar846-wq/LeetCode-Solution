@@ -158,6 +158,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0011-container-with-most-water) |
 | [0041-first-missing-positive](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0041-first-missing-positive) |
 | [0045-jump-game-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0049-group-anagrams) |
@@ -171,6 +172,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0011-container-with-most-water) |
 | [0088-merge-sorted-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0189-rotate-array) |
 ## Sorting
@@ -224,6 +226,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0055-jump-game) |
 ## Binary Search
