@@ -223,6 +223,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | ------- |
 | [0045-jump-game-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0055-jump-game) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Greedy
 |  |
 | ------- |
@@ -248,16 +249,23 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0094-binary-tree-inorder-traversal) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0094-binary-tree-inorder-traversal) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0094-binary-tree-inorder-traversal) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Simulation
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0412-fizz-buzz) |
+## DP on Trees
+|  |
+| ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0124-binary-tree-maximum-path-sum) |
 <!---LeetCode Topics End-->
