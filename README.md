@@ -210,6 +210,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | [0049-group-anagrams](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0205-isomorphic-strings) |
 | [0412-fizz-buzz](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0412-fizz-buzz) |
+| [0678-valid-parenthesis-string](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0678-valid-parenthesis-string) |
 | [1189-maximum-number-of-balloons](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1189-maximum-number-of-balloons) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -224,12 +225,14 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | [0045-jump-game-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0055-jump-game) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0678-valid-parenthesis-string](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0678-valid-parenthesis-string) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0055-jump-game) |
+| [0678-valid-parenthesis-string](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0678-valid-parenthesis-string) |
 ## Binary Search
 |  |
 | ------- |
@@ -238,11 +241,13 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0094-binary-tree-inorder-traversal) |
+| [0678-valid-parenthesis-string](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0678-valid-parenthesis-string) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Bracket Sequences
 |  |
 | ------- |
+| [0678-valid-parenthesis-string](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0678-valid-parenthesis-string) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Tree
