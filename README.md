@@ -183,6 +183,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0189-rotate-array) |
 | [0412-fizz-buzz](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0412-fizz-buzz) |
 | [1512-number-of-good-pairs](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1512-number-of-good-pairs) |
@@ -199,6 +200,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0013-roman-to-integer) |
 | [0041-first-missing-positive](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0205-isomorphic-strings) |
@@ -207,6 +209,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0205-isomorphic-strings) |
 | [0412-fizz-buzz](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0412-fizz-buzz) |
