@@ -168,6 +168,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0189-rotate-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0189-rotate-array) |
 | [1512-number-of-good-pairs](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1512-number-of-good-pairs) |
+| [2348-number-of-zero-filled-subarrays](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/2348-number-of-zero-filled-subarrays) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Two Pointers
 |  |
@@ -187,6 +188,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | [0189-rotate-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0189-rotate-array) |
 | [0412-fizz-buzz](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0412-fizz-buzz) |
 | [1512-number-of-good-pairs](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1512-number-of-good-pairs) |
+| [2348-number-of-zero-filled-subarrays](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/2348-number-of-zero-filled-subarrays) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Bit Manipulation
 |  |
