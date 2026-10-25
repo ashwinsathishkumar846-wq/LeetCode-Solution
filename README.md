@@ -206,6 +206,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | [0041-first-missing-positive](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0205-isomorphic-strings) |
+| [0535-encode-and-decode-tinyurl](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
 | [1189-maximum-number-of-balloons](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1189-maximum-number-of-balloons) |
 | [1512-number-of-good-pairs](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1512-number-of-good-pairs) |
 ## String
@@ -215,6 +216,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | [0049-group-anagrams](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0205-isomorphic-strings) |
 | [0412-fizz-buzz](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0412-fizz-buzz) |
+| [0535-encode-and-decode-tinyurl](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
 | [0678-valid-parenthesis-string](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0678-valid-parenthesis-string) |
 | [1189-maximum-number-of-balloons](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1189-maximum-number-of-balloons) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
@@ -278,4 +280,12 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0124-binary-tree-maximum-path-sum) |
+## Design
+|  |
+| ------- |
+| [0535-encode-and-decode-tinyurl](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
+## Hash Function
+|  |
+| ------- |
+| [0535-encode-and-decode-tinyurl](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
 <!---LeetCode Topics End-->
