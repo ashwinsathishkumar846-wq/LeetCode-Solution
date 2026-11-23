@@ -167,6 +167,7 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 | [0136-single-number](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0136-single-number) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0189-rotate-array](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0189-rotate-array) |
+| [0643-maximum-average-subarray-i](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0643-maximum-average-subarray-i) |
 | [1512-number-of-good-pairs](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/1512-number-of-good-pairs) |
 | [2348-number-of-zero-filled-subarrays](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/2348-number-of-zero-filled-subarrays) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -288,4 +289,8 @@ That accounts for all 78 solved problems: 76 with Java code here, 2 without.
 |  |
 | ------- |
 | [0535-encode-and-decode-tinyurl](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0535-encode-and-decode-tinyurl) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/ashwinsathishkumar846-wq/LeetCode-Solution/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
